@@ -20,7 +20,7 @@ namespace juros
             Console.WriteLine("Tempo (meses):");
             double t = Convert.ToDouble(Console.ReadLine());
 
-            double j = c * t * i;
+            double j = c * (i/100) * t;
             double m = c + j;
 
             Console.WriteLine();
